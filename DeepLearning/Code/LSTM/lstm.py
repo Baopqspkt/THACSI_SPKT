@@ -83,5 +83,3 @@ plt.xlabel('Time')
 plt.ylabel('VCB Stock Price')
 plt.legend()
 plt.show()
-
-"""# Mục mới"""
