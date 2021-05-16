@@ -1,8 +1,10 @@
-# git clone https://github.com/matthiasplappert/keras-rl.git
-# cd keras-rl
-# python setup.py install
-# pip install h5py
-# pip install gym
+"""
+Create by: Pham Quoc Bao, 2021-05-15
+Clone from file: https://www.analyticsvidhya.com/blog/2019/04/introduction-deep-q-learning-python/
+pip install keras-rl2
+pip install h5py
+pip install gym
+"""
 
 import numpy as np
 import gym
