@@ -1,4 +1,12 @@
 
+%{   
+    How to run this test:
+    clear all;
+    clc;
+    im=imread('lena256.pgm');
+    code8_3_4(im)
+%}
+
 function points = code8_3_4(im)
 %     clear all;
 %     clc;
