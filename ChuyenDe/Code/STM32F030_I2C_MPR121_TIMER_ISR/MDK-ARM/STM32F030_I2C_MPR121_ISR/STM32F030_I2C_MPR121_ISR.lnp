@@ -1,0 +1,28 @@
+--cpu Cortex-M0
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_tim_ex.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_flash.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_i2c_ex.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_rcc_ex.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_pwr.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_flash_ex.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_rcc.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_pwr_ex.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_gpio.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_dma.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_i2c.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_cortex.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_tim.o"
+"stm32f030_i2c_mpr121_isr\main.o"
+"stm32f030_i2c_mpr121_isr\gpio.o"
+"stm32f030_i2c_mpr121_isr\i2c.o"
+"stm32f030_i2c_mpr121_isr\tim.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_it.o"
+"stm32f030_i2c_mpr121_isr\stm32f0xx_hal_msp.o"
+"stm32f030_i2c_mpr121_isr\mpr121.o"
+"stm32f030_i2c_mpr121_isr\system_stm32f0xx.o"
+"stm32f030_i2c_mpr121_isr\startup_stm32f030x6.o"
+--library_type=microlib --strict --scatter "STM32F030_I2C_MPR121_ISR\STM32F030_I2C_MPR121_ISR.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "STM32F030_I2C_MPR121_ISR.map" -o STM32F030_I2C_MPR121_ISR\STM32F030_I2C_MPR121_ISR.axf

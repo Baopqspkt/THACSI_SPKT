@@ -1,0 +1,1 @@
+stm32f030_i2c_dma_mpr121_rety1\startup_stm32f030x6.o: startup_stm32f030x6.s

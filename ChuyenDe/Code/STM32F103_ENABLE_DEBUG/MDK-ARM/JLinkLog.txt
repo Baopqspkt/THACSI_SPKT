@@ -1,0 +1,129 @@
+T1A18 000:326.068   SEGGER J-Link V7.20a Log File
+T1A18 000:328.615   DLL Compiled: May  7 2021 16:48:29
+T1A18 000:329.112   Logging started @ 2021-05-28 16:50
+T1A18 000:329.505 - 329.746ms
+T1A18 000:330.854 JLINK_SetWarnOutHandler(...)
+T1A18 000:331.949 - 1.330ms
+T1A18 000:332.422 JLINK_OpenEx(...)
+T1A18 000:335.099   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T1A18 000:337.582   Firmware: J-Link ARM-OB STM32 compiled Aug 22 2012 19:52:04
+T1A18 000:340.731   Hardware: V7.00
+T1A18 000:341.751   S/N: 20090928
+T1A18 000:342.432   OEM: SEGGER
+T1A18 000:343.118   Feature(s): RDI,FlashDL,FlashBP,JFlash,GDB
+T1A18 000:344.957   TELNET listener socket opened on port 19021
+T1A18 000:346.150   WEBSRV Starting webserver
+T1A18 000:347.405   WEBSRV Webserver running on local port 19080
+T1A18 000:348.378 - 16.190ms returns "O.K."
+T1A18 000:349.914 JLINK_GetEmuCaps()
+T1A18 000:350.413 - 0.735ms returns 0x88EA5833
+T1A18 000:351.395 JLINK_TIF_GetAvailable(...)
+T1A18 000:352.197 - 1.530ms
+T1A18 000:353.819 JLINK_SetErrorOutHandler(...)
+T1A18 000:354.835 - 1.275ms
+T1A18 000:355.371 JLINK_ExecCommand("ProjectFile = "F:\POST_GITHUB\THACSI\ChuyenDe\Code\STM32F103_ENABLE_DEBUG\MDK-ARM\JLinkSettings.ini"", ...). 
+T1A18 000:407.709   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T1A18 000:424.142   XML referenced by ref file: C:\Program Files (x86)\SEGGER\JLink_V720a\JLinkDevices.xml
+T1A18 000:426.019   C:\Program Files (x86)\SEGGER\JLink_V720a\JLinkDevices.xml evaluated successfully.
+T1A18 000:501.734 - 146.791ms returns 0x00
+T1A18 000:502.409 JLINK_ExecCommand("Device = STM32F103RC", ...). 
+T1A18 000:504.704   Device "STM32F103RC" selected.
+T1A18 000:506.628 - 4.171ms returns 0x00
+T1A18 000:507.156 JLINK_GetHardwareVersion()
+T1A18 000:507.432 - 0.411ms returns 70000
+T1A18 000:507.714 JLINK_GetDLLVersion()
+T1A18 000:508.014 - 0.460ms returns 72001
+T1A18 000:508.317 JLINK_GetOEMString(...)
+T1A18 000:508.599 JLINK_GetFirmwareString(...)
+T1A18 000:508.867 - 0.398ms
+T1A18 000:509.147 JLINK_GetDLLVersion()
+T1A18 000:509.414 - 0.401ms returns 72001
+T1A18 000:509.687 JLINK_GetCompileDateTime()
+T1A18 000:509.949 - 0.391ms
+T1A18 000:510.226 JLINK_GetFirmwareString(...)
+T1A18 000:510.501 - 0.412ms
+T1A18 000:510.791 JLINK_GetHardwareVersion()
+T1A18 000:511.124 - 0.501ms returns 70000
+T1A18 000:511.465 JLINK_GetSN()
+T1A18 000:511.760 - 0.432ms returns 20090928
+T1A18 000:512.039 JLINK_GetOEMString(...)
+T1A18 000:512.321 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T1A18 000:513.813 - 1.791ms returns 0x00
+T1A18 000:514.264 JLINK_HasError()
+T1A18 000:514.549 JLINK_SetSpeed(5000)
+T1A18 000:514.944 - 0.581ms
+T1A18 000:515.713 JLINK_HasError()
+T1A18 000:516.151 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T1A18 000:516.477 - 0.469ms returns JLINKARM_RESET_TYPE_NORMAL
+T1A18 000:516.772 JLINK_Reset()
+T1A18 000:517.657   InitTarget() start
+T1A18 000:518.210    J-Link Script File: Executing InitTarget()
+T1A18 000:535.738   Active write protection detected.
+T1A18 000:536.512   Active read and/or write protected STM32 device detected.
+This could cause problems during flash download.
+Note: Unsecuring will trigger a mass erase of the internal flash.
+T1A18 000:536.822   Executing default behavior previously saved in the registry.
+T1A18 000:537.230   Device will be unsecured now.
+T1A18 000:559.272   Device unlocked successfully.
+T1A18 000:570.867   InitTarget() end
+T1A18 000:579.492   Found SW-DP with ID 0x0BC11477
+T1A18 000:584.505   Old FW that does not support reading DPIDR via DAP jobs
+T1A18 000:589.467   DPv0 detected
+T1A18 000:590.083   Scanning AP map to find all available APs
+T1A18 000:593.308   AP[1]: Stopped AP scan as end of AP map has been reached
+T1A18 000:593.967   AP[0]: AHB-AP (IDR: 0x04770031)
+T1A18 000:594.436   Iterating through AP map to find AHB-AP to use
+T1A18 000:599.984   AP[0]: Core found
+T1A18 000:600.580   AP[0]: AHB-AP ROM base: 0xE00FF000
+T1A18 000:603.419   CPUID register: 0x410CC601. Implementer code: 0x41 (ARM)
+T1A18 000:604.039   Found Cortex-M0 r0p1, Little endian.
+T1A18 000:705.361   Identified core does not match configuration. (Found: Cortex-M0, Configured: Cortex-M3)
+T1A18 000:707.629   -- Max. mem block: 0x00002C18
+T1A18 000:709.667   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1A18 000:711.820   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T1A18 000:714.142   CPU_ReadMem(4 bytes @ 0xE0002000)
+T1A18 000:716.328   FPUnit: 4 code (BP) slots and 0 literal slots
+T1A18 000:717.428   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T1A18 000:719.475   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T1A18 000:721.722   CPU_ReadMem(4 bytes @ 0xE0001000)
+T1A18 000:724.157   CPU_WriteMem(4 bytes @ 0xE0001000)
+T1A18 000:726.257   CoreSight components:
+T1A18 000:727.146   ROMTbl[0] @ E00FF000
+T1A18 000:727.658   CPU_ReadMem(64 bytes @ 0xE00FF000)
+T1A18 000:729.501   CPU_ReadMem(32 bytes @ 0xE000EFE0)
+T1A18 000:731.696   ROMTbl[0][0]: E000E000, CID: B105E00D, PID: 000BB008 SCS
+T1A18 000:732.751   CPU_ReadMem(32 bytes @ 0xE0001FE0)
+T1A18 000:734.378   ROMTbl[0][1]: E0001000, CID: B105E00D, PID: 000BB00A DWT
+T1A18 000:735.455   CPU_ReadMem(32 bytes @ 0xE0002FE0)
+T1A18 000:737.213   ROMTbl[0][2]: E0002000, CID: B105E00D, PID: 000BB00B FPB
+T1A18 000:739.809   CPU is running
+T1A18 000:741.306   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T1A18 000:743.191   CPU is running
+T1A18 000:744.143   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T1A18 000:745.693   Reset: Halt core after reset via DEMCR.VC_CORERESET.
+T1A18 000:747.317   Reset: Reset device via AIRCR.SYSRESETREQ.
+T1A18 000:747.961   CPU is running
+T1A18 000:748.437   CPU_WriteMem(4 bytes @ 0xE000ED0C)
+T1A18 000:801.654   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1A18 000:804.192   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1A18 000:806.204   CPU is running
+T1A18 000:807.426   CPU_WriteMem(4 bytes @ 0xE000EDF0)
+T1A18 000:809.365   CPU is running
+T1A18 000:810.522   CPU_WriteMem(4 bytes @ 0xE000EDFC)
+T1A18 000:817.579   CPU_ReadMem(4 bytes @ 0xE000EDF0)
+T1A18 000:830.663   CPU_WriteMem(4 bytes @ 0xE0002000)
+T1A18 000:832.421   CPU_ReadMem(4 bytes @ 0xE000EDFC)
+T1A18 000:833.924   CPU_ReadMem(4 bytes @ 0xE0001000)
+T1A18 000:835.638   CPU_WriteMem(4 bytes @ 0xE0001000)
+T1A18 000:837.408 - 321.057ms
+T1A18 000:838.168 JLINK_GetId()
+T1A18 000:839.563 - 1.727ms returns 0x0BC11477
+T1A18 000:847.826 JLINK_GetFirmwareString(...)
+T1A18 000:848.457 - 0.895ms
+T1A18 002:878.016 JLINK_Close()
+T1A18 002:880.168   CPU_ReadMem(4 bytes @ 0xE0001000)
+T1A18 002:883.029   CPU_WriteMem(4 bytes @ 0xE0001000)
+T1A18 002:885.046   CPU_WriteMem(4 bytes @ 0xE0001004)
+T1A18 002:914.714 - 37.282ms
+T1A18 002:915.645   
+T1A18 002:916.231   Closed

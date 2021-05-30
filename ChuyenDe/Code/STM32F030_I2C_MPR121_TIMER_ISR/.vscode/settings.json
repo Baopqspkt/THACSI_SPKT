@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "i2c.h": "c",
+        "main.h": "c",
+        "mpr121.h": "c",
+        "timer.h": "c",
+        "stm32f0xx_hal.h": "c",
+        "stm32f0xx_hal_i2c.h": "c",
+        "gpio.h": "c",
+        "stm32f0xx.h": "c"
+    }
+}
