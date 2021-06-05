@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"version01_ds3231_sdcard_usart1\i2c.o"
+"version01_ds3231_sdcard_usart1\usart.o"
+"version01_ds3231_sdcard_usart1\main.o"
+"version01_ds3231_sdcard_usart1\gpio.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_it.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_msp.o"
+"version01_ds3231_sdcard_usart1\ds3231.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_rcc.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_uart.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_gpio_ex.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_tim.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_rcc_ex.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_flash.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_flash_ex.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_tim_ex.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_i2c.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_pwr.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_gpio.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_dma.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal.o"
+"version01_ds3231_sdcard_usart1\stm32f1xx_hal_cortex.o"
+"version01_ds3231_sdcard_usart1\startup_stm32f103xe.o"
+"version01_ds3231_sdcard_usart1\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "VERSION01_DS3231_SDCARD_USART1\VERSION01_DS3231_SDCARD_USART1.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "VERSION01_DS3231_SDCARD_USART1.map" -o VERSION01_DS3231_SDCARD_USART1\VERSION01_DS3231_SDCARD_USART1.axf
